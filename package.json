@@ -18,12 +18,18 @@
   "bugs": {
     "url": "https://github.com/NativeScript/NativeScript/issues"
   },
+  "paths": {
+    "*": [
+      "./node_modules/*"
+    ]
+  },
   "homepage": "https://github.com/NativeScript/nativescript-app-templates",
   "dependencies": {
     "@nativescript/core": "~7.1.0",
     "@nativescript/theme": "~2.3.0"
   },
   "devDependencies": {
+    "@nativescript/android": "7.0.1",
     "@nativescript/types": "~7.0.0",
     "@nativescript/webpack": "~4.0.0",
     "typescript": "~3.9.0"
