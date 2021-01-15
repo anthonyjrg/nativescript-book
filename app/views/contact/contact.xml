@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ScrollView>
+        <StackLayout>
+            <Label textWrap="true" text="Contact Us"/>
+            <Label textWrap="true" text="Subject"/>
+            <TextField hint="Enter your subject"/>
+            <Label textWrap="true" text="Body"/>
+            <TextField hint="Enter your body"/>
+
+            <Button text="Submit" tap="onTap"/>
+        </StackLayout>
+    </ScrollView>
+</Page>

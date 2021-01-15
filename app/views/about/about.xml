@@ -1,0 +1,11 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ScrollView>
+        <StackLayout>
+        <Label text="Small gaming company that wants to bring you the best in gaming at an affordable price!!!" textWrap="true"/>
+        <Label text="Come visit us in Nassau, BS." textWrap="true"/>
+        <Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non urna vitae lorem pulvinar tempus sed sit amet nisl. Aliquam erat volutpat. Ut sagittis malesuada egestas. Proin nec nulla et mi ullamcorper ultricies nec sed tortor. Donec facilisis efficitur felis vel ornare. Praesent porttitor magna eu mauris maximus convallis. Morbi ut sapien ut nunc dictum porttitor vitae id ipsum. Suspendisse vulputate et leo vel tempor. Donec at sem quis nisi porta placerat. Aliquam et arcu diam. Sed enim arcu, tristique in dignissim feugiat, finibus vel dolor. Sed eu dolor ac est convallis consectetur a ut eros.
+
+Duis quis luctus lectus. Nam neque massa, sollicitudin et consectetur non, maximus ut nulla. Curabitur non sollicitudin diam, at commodo est. In sit amet laoreet sapien, at euismod leo. Donec tristique consectetur mattis. In vitae finibus velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus dolor nec justo mattis, sit amet viverra metus ultricies. Duis at nisi metus. Integer condimentum vel ante sagittis auctor. Donec ex quam, tincidunt a sapien quis, mollis egestas purus. Suspendisse vitae maximus dui, vitae aliquam neque. Aliquam egestas volutpat dolor, et scelerisque quam ultricies in. " textWrap="true" fontSize="20"/>
+        </StackLayout>
+    </ScrollView>
+</Page>

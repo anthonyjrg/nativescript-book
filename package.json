@@ -18,6 +18,11 @@
   "bugs": {
     "url": "https://github.com/NativeScript/NativeScript/issues"
   },
+  "paths": {
+    "*": [
+      "./node_modules/*"
+    ]
+  },
   "homepage": "https://github.com/NativeScript/nativescript-app-templates",
   "dependencies": {
     "@nativescript/core": "~7.1.0",
