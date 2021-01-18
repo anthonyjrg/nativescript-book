@@ -1,0 +1,23 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <GridLayout rows="*,*,*" columns="*,*" width="300" height="450">
+        <!-- Row 0 -->
+        <StackLayout row="0" col="0" class="tile" >
+            <Label text="Couch Commander" textWrap="true" />
+            <Image src="res://couchcommaner" width="75" height="75"/>
+            <Label text="$24.99"/>
+        </StackLayout>
+
+        <StackLayout row="0" col="1" class="tile" >
+            <Label  text="Mummy Madness" textWrap="true" />
+            <Image src="res://mummymadness" width="75" height="75"/>
+            <Label text="$39.99"/>
+        </StackLayout>
+        <!-- Row 1 -->
+        <Label row="1" col="0" text="Pyro Robots" textWrap="true" class="tile" />
+        <Label row="1" col="1" text="Rescue Pups" textWrap="true" class="tile" />
+        <!-- Row 2 -->
+        <Label row="2" col="0" text="Marshmallow Man" textWrap="true" class="tile" />
+        <Label row="2" col="1" text="Vampire Valkyrie" textWrap="true" class="tile" />
+    </GridLayout>
+
+</Page>

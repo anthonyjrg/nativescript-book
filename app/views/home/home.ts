@@ -2,7 +2,7 @@ import { Frame } from "@nativescript/core/ui/frame";
 
 let frameModule = Frame
 
-let onTap = function () {
+let navigateToAbout = function () {
 	let navigationEntry = {
 		moduleName: "views/about/about",
 		transition: {
@@ -22,5 +22,15 @@ let navigateToContact = function () {
 	frameModule.topmost().navigate(navigationEntry)
 }
 
-export {onTap, navigateToContact}
+let navigateToProducts = function () {
+	let navigationEntry = {
+		moduleName: "views/products/products",
+		transition: {
+			name: "slideLeft"
+		}
+	}
+	frameModule.topmost().navigate(navigationEntry)
+}
+
+export {navigateToAbout, navigateToContact, navigateToProducts}
 

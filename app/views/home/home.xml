@@ -1,7 +1,8 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd">
     <StackLayout>
-        <Label text="Welcome to my app"/>
-        <Button text="About" tap="onTap"/>
+        <Label text="Welcome to my app" class="title"/>
+        <Button text="About" tap="navigateToAbout"/>
+        <Button text="Products" tap="navigateToProducts"/>
         <Button text="Contact Us" textWrap="true" tap="navigateToContact"/>
     </StackLayout>
 </Page>
